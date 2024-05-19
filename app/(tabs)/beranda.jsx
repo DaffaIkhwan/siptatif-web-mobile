@@ -11,7 +11,7 @@ const Beranda = () => {
     <SafeAreaView className="h-full bg-white">
       <CustomBar />
 
-      <View className="px-4 py-6">
+      <View className="px-4 pt-6 pb-2">
         <Text className="text-gray-500 font-pregular">Welcome Back,</Text>
         <Text className="text-base font-psemibold">Muh. Zaki Erbai Syas</Text>
       </View>

@@ -31,8 +31,11 @@ const CustomBar = () => {
           <View style={styles.modalContent}>
             <TouchableOpacity onPress={handleLogout}>
               <Text className="text-center text-red-500" style={styles.modalOption}>
-                Log out
+                Keluar
               </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleCancel}>
+              <Text className="text-center" style={styles.modalOption}>Ganti Password</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={handleCancel}>
               <Text className="text-center" style={styles.modalOption}>Cancel</Text>
